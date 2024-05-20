@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: green;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: green;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+main {
+    width: 80%;
+    max-width: 800px;
+}
+
+#conteudo {
+    background-color: black;
+    color: green;
+    padding: 20px;
+    border: 2px solid green;
+    min-height: 200px;
+}
